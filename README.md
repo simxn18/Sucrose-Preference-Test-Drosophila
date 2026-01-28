@@ -5,6 +5,9 @@ SPT is used as a proxy of anhedonic-like behavior in *Drosophila*. In short, fli
 # Data adquisition
 Flies are recorded in a multi-way chamber, one fly per arena. The extremes of the arena contain cotton strips with water or 5% sucrose.
 # Analysis steps
+
+https://github.com/user-attachments/assets/9daa2777-304d-4008-992b-53699387c149
+
 1. Videos are analyzed to track centroids of moving flies in the arena using a custom Bonsai.rx workflow (see video), contained in the /bonsai folder. The workflow also generates a CSV file containing the arena's distance in pixels.
 2. Analysis is performed using a custom Python script. The analyzer works by reading CSV files in folders organized as follows: Main_folder/Condition/N/data.csv. Also, for each video, you need a config.csv file that specifies the side where sugar is applied: "right" or "left".
 3. The results include time at each extreme and preference index.
