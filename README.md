@@ -2,7 +2,7 @@
 This repository contains analysis pipelines used for quantifying size preference in the Sucrose Preference Test (SPT), adapted for *Drosophila melanogaster*.
 ## Background
 SPT is used as a proxy of anhedonic-like behavior in *Drosophila*. In short, flies are allowed to choose between a size with water and another with 5% sucrose. A lower preference for sucrose size is an anhedonic-like behavior.
-# Data adquisition
+# Data acquisiton
 Flies are recorded in a multi-way chamber, one fly per arena. The extremes of the arena contain cotton strips with water or 5% sucrose.
 # Analysis steps
 
